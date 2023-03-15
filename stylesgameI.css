@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Noto+Serif+Khojki:wght@600&display=swap');
+ 
+ body{
+    font-family: 'Bungee', cursive;
+    font-family: 'Noto Serif Khojki', serif;
+    min-width: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url("viking.jpg") no-repeat center center fixed;
+    background-size: cover;
+   
+    
+ }
+
+#seleccionar-guerrero{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color:beige;
+    font-family: "Copperplate Gothic Light"; 
+    font-size: 80px;
+    margin-bottom: 24px;
+   
+}
+.subtitulo{
+    color: rgb(255, 255, 248);
+    font-size: 28px;
+    margin: 20px;
+}
+.buttonsWarriors, .targetasataques{
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    font-size: 20px;
+}
+.labelbuttons{ 
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px; 
+    box-sizing: border-box;
+    height: 200px;
+    width: 260px;
+    display: flex;
+    border-radius: 15px;
+    border-color: rgb(243, 249, 255, 0.45);
+    background: linear-gradient( rgba(43, 1, 63, 0.12), rgba(134, 2, 128, 0.12) );
+    
+    
+}
+.buttonsWarriors img{
+    width: 100px;
+    display: flex;
+    align-items:center ;
+}
+#selecciondeguerrero{
+    background-color: rgb(241, 241, 188, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    width: 290px;
+    height: 40px;
+    font-family: "Copperplate Gothic Light"; 
+    border-radius:  17px;
+    border-color: rgba(0, 0, 0, 0.178);
+    flex-direction: center;
+    font-size: 24px;
+    color:rgb(37, 2, 32);
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+
+input{
+    display: none;
+}
+input:checked + label{
+    background: rgba(5, 235, 252, 0.301);
+}
+
+ 
+#eligeTuAtaque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.buttonAtaque{
+    color: beige;
+    height: 58px;
+    width: 320px;
+    margin-left: 20px;
+    margin-top: 24px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "Copperplate Gothic Light";
+    border-radius: 24px;
+    border-color: rgb(243, 249, 255, 0.45);
+    background: linear-gradient( rgba(43, 1, 63, 0.30), rgba(134, 2, 128, 0.30) );
+}
+#mesajes{
+    color: beige;
+    width: 450px;
+    font-size: 24px;
+    background: rgba(2, 53, 66, 0.281);
+    padding: 20px;
+    margin-top: 20px;
+    border-color: rgba(175, 169, 169, 0.199);
+    border-radius: 50px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#buttonReiniciar{
+    border: none;
+    color: beige;
+    background-color:transparent;
+    font-size: 20px;
+    display: flex;
+    width: 200px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Copperplate Gothic Light";
+}
+.ataquesdejugadores{
+    font-family: "Copperplate Gothic Light";
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: 250px 250px;
+    background-color:rgba(2, 53, 66, 0.281);
+    align-items: center;
+    justify-items: center;
+    margin: 54px;
+    border-radius: 20px;
+    color: beige;
+    font-size: 28px;
+}
+
+.buttonsAtaques{
+    display: flex;
+    align-items: center;
+}
+#vidasenemigo, #vidasnosotros{
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+.ataque-enemigo, .ataque-jugador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 800px) {
+    .targetasataques, .buttonsWarriors{
+        flex-direction: column;
+    }
+}
+

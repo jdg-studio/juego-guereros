@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="utf-8" />
+            <title>el sendero de los caidos 🔥 🪨 💧</title>
+            <section id="imagenpricipal">
+                <link rel="stylesheet" href="./stylesgameI.css">
+            </section>
+    </head>
+    <body onload> 
+        <!--titulo--> 
+
+       <!--seleciones guerros--> 
+    <section id="seleccionar-guerrero">
+
+        <h1 class="title"><b>Valhalla</b></h1>
+
+        <h2 class="subtitulo">ELIGE TU GUERRERO</h2>
+
+
+        <div class="buttonsWarriors">
+            <input type="radio"name ="guerreros" id="Nifelheim"/>
+            <label class="labelbuttons" for="Nifelheim">
+                <p><b>NIFELHEIM</b></p>
+                <img src="./imagenes/nifelhiem.png" alt="Nifelhiem">
+            </label>
+            
+            <input type="radio"name ="guerreros" id="Midgard"/>
+            <label class="labelbuttons" for="Midgard">
+                <p><b>MIDGARD</b></p>
+                <img src="./imagenes/mid.png" alt="Midgard">
+            </label>
+
+            <input type="radio"name ="guerreros" id="Svartalfheim"/>
+            <label class="labelbuttons" for="Svartalfheim">
+                <p><b>SVARTALFHEIM</b></p>
+                <img src="./imagenes/svartalfheim.png" alt="Svartalfheim">
+            </label>
+
+            <input type="radio"name ="guerreros" id="Muspelheim"/>
+            <label class="labelbuttons" for="Muspelheim">
+                <p><b>MUSPELHEIM</b></p>
+                <img src="./imagenes/muspelheim.png" alt="Muspelheim">
+            </label>
+
+            <input type="radio"name ="guerreros" id="Vanaheim"/>
+            <label class="labelbuttons" for="Vanaheim">
+                <p><b>VANAHEIM</b></p>
+                <img src="./imagenes/atreus-removebg-preview.png" alt="Vanaheim">
+            </label>
+
+        </div>  
+             
+            <button id="selecciondeguerrero"><p><b>ᛊᛁᚷᚢᛁᛖᚾᛏᛖ</b></p></button>
+    </section>
+       
+        <!--ataque-->
+        <section id="eligeTuAtaque">
+
+            <h1 class="title"><b>Valhalla</b></h1>
+            <h2 class="subtitulo">ELIGE TU ATAQUE</h2>
+
+            <div class="targetasataques">
+                <button id="botonTIERRA" class="buttonAtaque"><b>TIERRA 🪨</b></button>
+                <button id="botonFUEGO" class="buttonAtaque"><b>FUEGO 🔥</b></button>
+                <button id="botonAGUA" class="buttonAtaque"><b>AGUA💧</b></button>
+             
+             </div>
+
+        
+        <div id="mesajes">
+            <p id="resultado"><a>QUE GANE EL MEJOR</a></p>
+            <section id="reiniciar">
+              <button id="buttonReiniciar"><b>RESET</b></button>
+            </section>
+        </div>
+
+            <div class="ataquesdejugadores">
+                <div class="ataque-jugador">
+                    <p id="nombreguerrero"><b></b></p>
+                    <p id="vidasnosotros">3</p>
+                    <div id="ataqueJugador"><b></b></div>
+                </div>
+                <div class="ataque-enemigo">
+                    <p id="nombreEnemigo"><b></b></p>
+                    <p id="vidasenemigo">3</p>
+                    <div id="ataqueEnemigo"><b></b></div>
+                </div>
+            </div>
+        </section>
+        <script src="./js/js de guerreros.js"></script>
+    </body>
+</html>
